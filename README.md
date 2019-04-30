@@ -62,7 +62,7 @@ $ build-stats travis:boltpkg/bolt clean
 build-stats <service>:<user>/<repo> <command> [...options]
 ```
 
-- `service`: CI Service (`travis` or `bitbucket`)
+- `service`: CI Service (`travis`, `bitbucket` or `drone`)
 - `user/repo`: Project specifier (Example: `https://travis-ci.org/boltpkg/bolt` &rarr; `boltpkg/bolt`)
 
 ### Commands
